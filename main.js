@@ -3,7 +3,6 @@ function number(){
     let mins = 1..mins()
     let secs = 45..secs()
     console.log(hours, mins, secs)
-    console.log(1..hours().in_mins())
-    console.log(60..mins().in_hours())
-    console.log(1..mins().in_secs())
+    console.log(`1 hour = ${1..hours().in_mins()} mins`)
+    console.log(`0 hours = ${0..hours().in_mins()} mins`)
 }
