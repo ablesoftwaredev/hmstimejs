@@ -1,2 +1,2 @@
 # hmstimejs
-#### syntactic sugar for working with h:m:s time format
+#### syntactic sugar for working with hh:mm:ss time format
