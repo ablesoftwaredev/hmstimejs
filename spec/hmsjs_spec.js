@@ -43,4 +43,12 @@ describe("h:m:s time conversions", function(){
         let time = 0..hours().in_mins()
         expect(time).toBe(0)
     })
+    it("-1m should be -60s", function(){
+        let time = -1..mins().in_secs()
+        expect(time).toBe(-60)
+    })
+    it("1.0hours should be 60.0m", function(){
+        let time = (1.0).hours().in_mins()
+        expect(time).toBe(60.0)
+    })
 })
