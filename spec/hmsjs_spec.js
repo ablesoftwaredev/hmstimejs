@@ -51,4 +51,12 @@ describe("h:m:s time conversions", function(){
         let time = (1.0).hours().in_mins()
         expect(time).toBe(60.0)
     })
+    it("0.5hours should be 30.0m", function(){
+        let time = (0.5).hours().in_mins()
+        expect(time).toBe(30.0)
+    })
+    it("0.5mins should be 30.0s", function(){
+        let time = (0.5).mins().in_secs()
+        expect(time).toBe(30.0)
+    })
 })
