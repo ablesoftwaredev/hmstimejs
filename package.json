@@ -4,8 +4,11 @@
   "description": "syntactic sugar for working with h:m:s time formats",
   "main": "main.js",
   "scripts": {
-    "run": ""
+    "test": "jasmine"
   },
   "author": "AbleSoftwareDev",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
 }

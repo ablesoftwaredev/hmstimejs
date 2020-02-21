@@ -10,6 +10,10 @@ Number.prototype.secs = function (){
     return this * 1
 }
 
+Number.prototype.in_secs = function (){
+    return this * 1
+}
+
 Number.prototype.in_mins = function (){
     return this / 60
 }
