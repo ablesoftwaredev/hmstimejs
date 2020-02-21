@@ -1,0 +1,11 @@
+{
+  "name": "hmstimejs",
+  "version": "0.0.1",
+  "description": "syntactic sugar for working with h:m:s time formats",
+  "main": "main.js",
+  "scripts": {
+    "run": ""
+  },
+  "author": "AbleSoftwareDev",
+  "license": "MIT"
+}
